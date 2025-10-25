@@ -1,0 +1,33 @@
+.flex-container{
+  
+   border: 5px solid;
+  display: flex;
+  
+  height :400px;
+  flex-direction: column;  /*orcolumn*/
+  justify-content:space-around;
+  align-items:center;
+  flex-wrap:wrap;
+   
+
+}
+   .innerflex{
+        display: flex;
+        border: 5px solid;
+        flex-wrap: wrap;
+        flex-direction:row;
+        margin: 5px; 
+        background-color: bisque; 
+}
+
+.flex-item{
+       border: 7px solid;
+       text-align:center;
+        border-color: chartreuse;
+       margin:20px;
+       background-color:antiquewhite;
+
+       
+} 
+        
+
